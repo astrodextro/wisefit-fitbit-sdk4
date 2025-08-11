@@ -29,7 +29,7 @@ The scripture text is from the King James Version (KJV).
 
 ## 🛠️ Built With
 
-*   [Fitbit OS SDK4](https://dev.fitbit.com/build/guides/sdk/)
+*   [Fitbit OS SDK4](https://dev.fitbit.com/build/guides)
 *   TypeScript
 
 ## 🚀 Getting Started
@@ -39,27 +39,3 @@ To get a local copy up and running, follow these simple steps.
 ### Prerequisites
 
 You need the Fitbit OS command-line tools. You can set them up by following the [Fitbit SDK guide](https://dev.fitbit.com/build/guides/command-line-interface/).
-
-### Installation
-
-1.  Clone the repo:
-    ```sh
-    git clone https://github.com/your_username/WiseFit.git
-    ```
-2.  Navigate to the project directory:
-    ```sh
-    cd WiseFit
-    ```
-3.  Install NPM packages:
-    ```sh
-    npm install
-    ```
-4.  Build and install the app on your Fitbit device or simulator:
-    ```sh
-    npx fitbit-build
-    npx fitbit-install
-    ```
-
-I recommend renaming the project folder from `fitbit-sdk4` to something more descriptive like `WiseFit` before you push it to GitHub.
-
-Good luck with your project!
