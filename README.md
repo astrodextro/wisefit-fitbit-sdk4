@@ -25,7 +25,7 @@ The scripture text is from the King James Version (KJV).
 
 **Chapter View**
 
-![Chapter View](screenshots\Screenshot%202025-08-08%20at%2014.12.02.png)
+![Chapter View](screenshots/Screenshot%202025-08-08%20at%2014.12.02.png)
 
 ## 🛠️ Built With
 
