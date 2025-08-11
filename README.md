@@ -21,11 +21,11 @@ The scripture text is from the King James Version (KJV).
 
 **Verse View**
 
-![Verse View]("screenshots\Screenshot 2025-08-08 at 14.11.44.png")
+![Verse View](screenshots/Screenshot%202025-08-08%20at%2014.11.44.png)
 
 **Chapter View**
 
-![Chapter View]("screenshots\Screenshot 2025-08-08 at 14.12.02.png")
+![Chapter View](screenshots\Screenshot%202025-08-08%20at%2014.12.02.png)
 
 ## 🛠️ Built With
 
