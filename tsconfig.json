@@ -1,0 +1,11 @@
+{
+  "extends": "./node_modules/@fitbit/sdk/sdk-tsconfig.json",
+  // "compilerOptions": {
+  //   "target": "es5",
+  //   "module": "commonjs",
+  //   "outDir": "build",
+  //   "strict": true,
+  //   "esModuleInterop": true
+  // },
+  "include": ["app/**/*.ts", "common/**/*.ts"]
+}

@@ -1,0 +1,29 @@
+<svg class="background">
+
+  <defs>
+    <symbol id="view-header" href="#scrollview-header">
+      <rect fill="inherit" x="0" y="0" width="100%" height="100%"/>
+      <text id="text" x="50%" y="50%" fill="white" font-size="30"
+        font-weight="bold" text-anchor="middle" />
+      <gradientRect id="background-rect" />
+    </symbol> 
+  </defs>
+
+  <rect width="100%" height="100%" />
+
+  <!-- ==================== VERSE VIEW ==================== -->
+  <use href="#scrollview" id="verse-container" pointer-events="visible">
+    <!-- Header -->
+    <use href="#view-header" height="50">
+      <set href="#text" attributeName="text-length" to="32" />
+      <set href="#text" attributeName="class" to="reference-text" />
+      <set href="#text" attributeName="id" to="reference-label" />
+    </use>
+
+    <!-- Verse Text Area -->
+    <use href="#scrollview-item" height="250">
+      <!-- Set text to the first child of #scrollview-item to see scroll effect -->
+      <textarea id="verse-text"  pointer-events="none" class="p2 foreground-fill verse-text-area" text-length="2048"/>
+    </use> 
+  </use>
+</svg>

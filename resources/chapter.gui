@@ -1,0 +1,55 @@
+<svg id="background">
+
+  <defs>
+    <symbol id="verse-item" href="#tile-list-item" class="list-item" display="none">
+      <rect class="bg"/>
+      <textarea id="item-content" pointer-events="none" class="chapter-text-area"/>
+    </symbol>
+
+    <symbol id="header-item" href="#tile-list-item" class="list-item" display="none">
+      <text id="header-content"/>
+      <gradientRect id="background-rect" />
+    </symbol>
+  </defs>
+
+  <animate attributeName="x" from="100%" to="0" begin="load" dur="0.5" easing="ease-in-out" />
+  <animate attributeName="x" to="0" begin="enable" dur="0.5" easing="ease-in-out" />
+  
+  <use id="versesList" href="#tile-list">
+    <var id="virtual" value="1" />
+    <var id="reorder-enabled" value="0"/>
+    <var id="peek-enabled" value="1"/>
+    <var id="separator-height-bottom" value="2" />
+
+    <use id="item-pool" href="#tile-list-pool">
+      <use id="item-pool[0]" href="#verse-item" />
+      <use id="item-pool[1]" href="#verse-item" />
+      <use id="item-pool[2]" href="#verse-item" />
+      <use id="item-pool[3]" href="#verse-item" />
+      <use id="item-pool[4]" href="#verse-item" />
+      <use id="item-pool[5]" href="#verse-item" />
+      <use id="item-pool[6]" href="#verse-item" />
+      <use id="item-pool[7]" href="#verse-item" />
+      <use id="item-pool[8]" href="#verse-item" />
+      <use id="item-pool[9]" href="#verse-item" />
+      <use id="item-pool[10]" href="#verse-item" />
+      <use id="item-pool[11]" href="#verse-item" />
+      <use id="item-pool[12]" href="#verse-item" />
+      <use id="item-pool[13]" href="#verse-item" />
+      <use id="item-pool[14]" href="#verse-item" />
+    </use>
+
+    <use id="header-pool" href="#tile-list-pool">
+      <use id="header-pool[0]" href="#header-item" class="tile-list-item" />
+      <use id="header-pool[1]" href="#header-item" class="tile-list-item" />
+      <use id="header-pool[2]" href="#header-item" class="tile-list-item" />
+      <use id="header-pool[3]" href="#header-item" class="tile-list-item" />
+      <use id="header-pool[4]" href="#header-item" class="tile-list-item" />
+      <use id="header-pool[5]" href="#header-item" class="tile-list-item" />
+      <use id="header-pool[6]" href="#header-item" class="tile-list-item" />
+      <use id="header-pool[7]" href="#header-item" class="tile-list-item" />
+      <use id="header-pool[8]" href="#header-item" class="tile-list-item" />
+      <use id="header-pool[9]" href="#header-item" class="tile-list-item" />
+    </use>
+  </use>
+</svg>
